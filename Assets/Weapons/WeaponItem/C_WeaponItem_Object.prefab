@@ -12,7 +12,10 @@ GameObject:
   - component: {fileID: 2515227885241495479}
   - component: {fileID: 4059004502090729517}
   - component: {fileID: 2893378128851043912}
-  m_Layer: 0
+  - component: {fileID: 5736662606531650568}
+  - component: {fileID: -1634126957151896152}
+  - component: {fileID: -2580223602764460471}
+  m_Layer: 11
   m_Name: C_WeaponItem_Object
   m_TagString: Cuchillo
   m_Icon: {fileID: 0}
@@ -68,7 +71,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.55
 --- !u!212 &4059004502090729517
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -110,7 +113,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -509051430, guid: e328c99be88374242af8b420d9a9a370, type: 3}
+  m_Sprite: {fileID: 1375570215, guid: e328c99be88374242af8b420d9a9a370, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -134,3 +137,54 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 9a1c42edf5a51434a882603877318043, type: 2}
+--- !u!114 &5736662606531650568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7888996270813629680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9013ee42c11c861478d6d07e924e0ed6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-1634126957151896152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7888996270813629680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f328b489e57f514484d5f72da9ed8e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &-2580223602764460471
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7888996270813629680}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

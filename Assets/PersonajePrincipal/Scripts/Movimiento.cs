@@ -167,7 +167,7 @@ public class Movimiento : MonoBehaviour
     {
         if (throw_ai.triggered && !attack_ia.triggered)
         {
-            if (weaponSwitch.armaActual == PlayerWeaponSwich.TipoArma.Cuchillo)
+            if (weaponSwitch.armaActual == PlayerWeaponSwich.TipoArma.Cuchillo || weaponSwitch.armaActual == PlayerWeaponSwich.TipoArma.Hacha)
             {
                 Debug.Log("Hola");
                 currentStates = STATES.ONTHROW;

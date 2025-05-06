@@ -7,6 +7,7 @@ TagManager:
   - Latigo
   - Cuchillo
   - BULLET
+  - Hacha
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,8 @@ TagManager:
   - Floor
   - Weapon
   - Player
-  - 
-  - 
+  - ObjetoRompible
+  - Item
   - 
   - 
   - 

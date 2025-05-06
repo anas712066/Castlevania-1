@@ -12,7 +12,9 @@ GameObject:
   - component: {fileID: 8293255755635873256}
   - component: {fileID: 7612219518861865586}
   - component: {fileID: 8779532525792345111}
-  m_Layer: 0
+  - component: {fileID: 8112919017721858160}
+  - component: {fileID: 5387798691479902595}
+  m_Layer: 11
   m_Name: L_WeaponItem_Object
   m_TagString: Latigo
   m_Icon: {fileID: 0}
@@ -68,7 +70,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.55
 --- !u!212 &7612219518861865586
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -134,3 +136,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 36240b585e763fb48adb9df4f82a2251, type: 2}
+--- !u!50 &8112919017721858160
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4362626892430341807}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &5387798691479902595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4362626892430341807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9013ee42c11c861478d6d07e924e0ed6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
