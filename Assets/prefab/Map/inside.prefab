@@ -533,7 +533,7 @@ GameObject:
   - component: {fileID: 1253419279076833808}
   - component: {fileID: 8617210078256433187}
   - component: {fileID: 4353219682845381403}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plataforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -917,7 +917,7 @@ GameObject:
   - component: {fileID: 7365070058412786472}
   - component: {fileID: 8245017088067468847}
   - component: {fileID: 4923797617482746489}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
